@@ -2,6 +2,9 @@ body {
     background-image: url('./Imagefolder/background.jpg');
     background-repeat: no-repeat;
     background-size: cover
+
+ 
+
  
 }
 h1 {
@@ -46,16 +49,38 @@ btn-xl {
 th {padding: 8px; border: 1px solid #0e0808; text-align: left;}
 
 .button {
-       display: inline-block; /* Makes the link a block-level element */
-       padding: 10px 20px; /* Adds padding for a button-like look */
-       background-color: #007bff; /* Sets the background color */
-       color: #fff; /* Sets the text color */
-       text-decoration: none; /* Removes the underline from the link */
-       border-radius: 5px; /* Adds rounded corners */
-       cursor: pointer; /* Changes the cursor to a pointer on hover */
+       display: inline-block; 
+       padding: 10px 20px; 
+       background-color: #007bff; 
+       color: #fff; 
+       text-decoration: none; 
+       border-radius: 5px; 
+       cursor: pointer; 
    }
 
 img {
   display: block;
   margin: auto;
+}
+
+ #results-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: 200px;
+  grid-gap: 10px;
+}
+
+
+.search-result {
+  
+  border: none;
+  padding: 10px;
+}
+
+
+.merienda-<testing> {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: <500>;
+  font-style: normal;
 }
