@@ -11,9 +11,9 @@ h1 {
   color: rgb(2, 2, 31);
   font-size: 2em;
   font-family: 'Merienda', sans-serif;
-  font-weight: 700; /* Or your desired weight */
+  font-weight: 700;
 }
-}
+
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -73,11 +73,12 @@ img {
   grid-gap: 10px;
  }
 
-
-#results-img {
-  width: 100%; /* Make images fill the grid cell */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: cover;
+.results-container img {
+  display: block; 
+  max-width: 100%;
+  height: auto; 
+  object-fit: cover; 
+  min-height: 0; 
 }
 
 
