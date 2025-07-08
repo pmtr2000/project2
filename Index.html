@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
     resultsContainer.innerHTML = '';
 
     
-    const giphyAPI = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${searchTerm}&limit=25`; 
+    const giphyAPI = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${searchTerm}&limit=24`; 
     try {
       const response = await fetch(giphyAPI, { mode: 'cors' }); 
       const data = await response.json(); 

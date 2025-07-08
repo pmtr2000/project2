@@ -73,7 +73,7 @@ img {
   grid-gap: 10px;
  }
 
-.results-container img {
+#results-container img {
   display: block; 
   max-width: 100%;
   height: fit-content; 
