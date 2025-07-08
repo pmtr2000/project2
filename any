@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>Sample HTML page </title>
+<link rel="stylesheet" href="./Stylesheet.css">
+</head>
+ <div>
+    
+try{
+    const response = await fetch(apiUrl);
+    const data = await response.json();
+
+    gifContainer.innerHTML = ""; // Clear previous results
+
+    data.data.forEach(gif => {
+      const img = document.createElement("img");
+      img.src = gif.images.downsized.url; // Or use other image sizes
+      gifContainer.appendChild(img);
+    });
+
+  try{
+  catch (error)
+    console.error("Error fetching GIFs:", error);
+  }
+
+  </div>
