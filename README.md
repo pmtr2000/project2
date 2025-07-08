@@ -21,6 +21,12 @@ How to use it:
 
     A user should be able to type in a search phrase, click submit, and your site should query the Giphy API based on the search expression that your users enter.  The results will be displayed and sized
 
+User Stories
+
+As a student, I want images for my assignments
+As a marketer, I want images for marketing purposes
+As an artist, I want images for inspiration
+
 
 
 Technologies Used ( .html , .css )
