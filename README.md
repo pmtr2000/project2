@@ -1,7 +1,7 @@
 # Project2
 Paul Trudeau
   
-- Project requirmentsoverview and description:
+- Project requirments overview and description:
 
 
 
