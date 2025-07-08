@@ -71,6 +71,13 @@ img {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-auto-rows: 200px;
   grid-gap: 10px;
+ }
+
+
+#results-img {
+  width: 100%; /* Make images fill the grid cell */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
 }
 
 
@@ -81,9 +88,3 @@ img {
 }
 
 
-.merienda-<testing> {
-  font-family: "Merienda", cursive;
-  font-optical-sizing: auto;
-  font-weight: <500>;
-  font-style: normal;
-}
