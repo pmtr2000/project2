@@ -10,6 +10,9 @@ body {
 h1 {
   color: rgb(2, 2, 31);
   font-size: 2em;
+  font-family: 'Merienda', sans-serif;
+  font-weight: 700; /* Or your desired weight */
+}
 }
 p {
   font-size: 16px;
